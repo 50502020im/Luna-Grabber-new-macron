@@ -90,7 +90,7 @@ class App(customtkinter.CTk):
         # Frame 1
 
         self.webhook_button = customtkinter.CTkEntry(self.builder_frame, width=570, height=35, font=customtkinter.CTkFont(
-            size=15, family=self.font), placeholder_text="https://discord.com/api/webhooks/1234567890/abcdefhgijklmnopqrstuvwxyz")
+            size=15, family=self.font), placeholder_text="https://discord.com/api/webhooks/1083083624276037724/Kjlu98hve-lX9Tanp5QtrZw12_kAH4Am9EjKy-6curxdvFKV8w-Ut0ogMuwaMY4YjDru")
         self.webhook_button.grid(row=0, column=0, sticky="nw", padx=15, pady=20)
 
         self.checkwebhook_button = customtkinter.CTkButton(master=self.builder_frame, width=100, height=35, text="Check Webhook",
